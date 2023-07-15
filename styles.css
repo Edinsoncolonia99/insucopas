@@ -31,6 +31,7 @@
     width: 385px;
     height: 370px;
     background-color: #def5ff;
+    margin-bottom: 0;
 }
 
 .contenedor-empresa{
@@ -44,6 +45,7 @@
     width: 385px;
     height: 1000px;
     background-color: #acd7fc;
+    margin-bottom: -19px;
 }
 
 .texto-0{
@@ -51,6 +53,8 @@
     padding-top: 5px;
     font-weight: bolder;
     color: #0693e3;
+    font-size: 36px;
+    margin-bottom: -10px;
 }
 
 .texto-01{
@@ -63,7 +67,7 @@
 
 .contenedor-servicios-1{
     width: 385px;
-    height: 450px;
+    height: 425px;
 
 }
 .contenedor-nuestro-imagen-1{
