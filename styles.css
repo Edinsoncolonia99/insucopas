@@ -1,0 +1,205 @@
+* {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #f2f2f2;
+  }
+  
+  .header p {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .header nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    height: 600px;
+    margin-top: 20px;
+  }
+
+.nosotros {
+    width: 385px;
+    height: 370px;
+    background-color: #def5ff;
+}
+
+.contenedor-empresa{
+    width: 350px;
+    height: 230px;
+
+}
+  
+
+.nuestrosServicios{
+    width: 385px;
+    height: 1000px;
+    background-color: #acd7fc;
+}
+
+.texto-0{
+    margin-left: 10px;
+    padding-top: 5px;
+    font-weight: bolder;
+    color: #0693e3;
+}
+
+.texto-01{
+    margin-left: 10px;
+    padding-top: 5px;
+    color: black;
+}
+
+
+
+.contenedor-servicios-1{
+    width: 385px;
+    height: 450px;
+
+}
+.contenedor-nuestro-imagen-1{
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0px solid #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    background-image: URL("IMG_1169.jpg");
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+
+}
+
+.contenedor-nuestro-imagen-2{
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0px solid #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    background-image: URL("IMG_1167.jpg");
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+
+}
+
+.contenedor-nuestro-texto{
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px solid #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.texto-1{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 22px;
+    color: #1698e4;
+    margin-top: -8px;
+}
+
+div.contenedor-nuestro-texto p.texto-2 strong {
+    font-weight: bolder;
+  }
+  
+
+.texto-2{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+    color:black;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+
+.clientes{
+    width: 385px;
+    height: 500px;
+    background-color: #2307d5;
+}
+
+.clientes1{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 22px;
+    color:white;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+.clientes2{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+    color:black;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+.acerca {
+    width: 385px;
+    height: 500px;
+    background-color: #8a8a8a;
+}
+
+.texto1{
+    word-wrap: break-word; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #f2f2f2;
+  }
+  
+  .acerca {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .footer-final {
+    display: grid;
+    place-items: center;
+  }
+
+  .icono-celular,
+.icono-correo {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 20px; 
+  height: 25px;
+}
+
+
+
+
+
+
+
