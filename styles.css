@@ -38,7 +38,7 @@
 .contenedor-empresa{
     width: 350px;
     height: 230px;
-
+  /**/
 }
   
 
@@ -53,7 +53,6 @@
 .texto-0{
   position: relative;
     margin-left: 10px;
-    /*padding-top: 5px;*/
     margin: 0;
     padding: 0;
     font-weight: bolder;
