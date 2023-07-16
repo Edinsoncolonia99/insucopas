@@ -29,10 +29,11 @@
 
 .nosotros {
     width: 385px;
-    height: 370px;
+    height: 390px;
     background-color: #def5ff;
     margin-bottom: 0;
 }
+
 
 .contenedor-empresa{
     width: 350px;
@@ -45,16 +46,20 @@
     width: 385px;
     height: 1000px;
     background-color: #acd7fc;
-    margin-bottom: -19px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .texto-0{
+  position: relative;
     margin-left: 10px;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
+    margin: 0;
+    padding: 0;
     font-weight: bolder;
     color: #0693e3;
     font-size: 36px;
-    margin-bottom: -10px;
+    
 }
 
 .texto-01{
@@ -136,18 +141,33 @@ div.contenedor-nuestro-texto p.texto-2 strong {
     margin-top: 0px;
 }
 
+.logos-marcas{
+  width: 350px;
+  height: 300px;
+  margin-left: 20px;
+  padding-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
 
 .clientes{
     width: 385px;
-    height: 500px;
+    height: 450px;
     background-color: #2307d5;
 }
 
 .clientes1{
     padding-left: 10px;
     padding-top: 5px;
-    font-size: 22px;
+    font-size: 30px;
     color:white;
     padding-top: 0px;
     margin-top: 0px;
@@ -166,32 +186,32 @@ div.contenedor-nuestro-texto p.texto-2 strong {
 
 .acerca {
     width: 385px;
-    height: 500px;
+    height: 20  0px;
     background-color: #8a8a8a;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
-.texto1{
-    word-wrap: break-word; 
-}
+
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+    width: 385px;
+    height: 325px;
     background-color: #f2f2f2;
   }
   
-  .acerca {
-    text-align: center;
-    margin-bottom: 0px;
-  }
   
-  .footer-final {
-    display: grid;
-    place-items: center;
-  }
+  .texto1{
+    word-wrap: break-word; 
+}
+
+.footer-final {
+  display: grid;
+  place-items: center;
+  padding-left: 20px;
+  margin-top: -28px;
+
+}
 
   .icono-celular,
 .icono-correo {
