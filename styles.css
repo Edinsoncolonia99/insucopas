@@ -3,23 +3,66 @@
   }
 
   .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #3d43b3;
+    z-index: 999;
+    transition: opacity 0.3s ease; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 60px;
-    background-color: #f2f2f2;
+    padding: 0 20px;
   }
-  
-  .header p {
-    font-weight: bold;
-    font-size: 18px;
+
+  .menu {
+    position: relative;
+    display: inline-block;
   }
+
+  .header p{
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
   
-  .header nav a {
-    margin-right: 15px;
+  .menu-btn{
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 10px;
+  }
+
+  .menu-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    
+  }
+
+  .menu-options a {
+    display: block;
+    padding: 5px 0;
     text-decoration: none;
     color: #333;
+  }
+  
+  .menu:hover .menu-options {
+    display: block;
+  }
+
+  .header.opaque {
+    opacity: 0.7; 
   }
   
   section {
@@ -31,7 +74,8 @@
     width: 385px;
     height: 390px;
     background-color: #def5ff;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+    margin-top: 100px;
 }
 
 
@@ -79,14 +123,15 @@
     height: 200px;
     margin-left: 20px;
     padding-bottom: 0px;
-    background-color: aqua;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 0px solid #000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-    background-image: URL("IMG_1169.jpg");
+    background-image: URL("assets/pexels-canva-studio-3194518.jpg");
     background-size: 350px 250px;
     background-repeat: no-repeat;
+
+    
 
 }
 
@@ -95,12 +140,11 @@
     height: 200px;
     margin-left: 20px;
     padding-bottom: 0px;
-    background-color: aqua;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 0px solid #000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-    background-image: URL("IMG_1167.jpg");
+    background-image: URL("assets/gears-1236578_1280.jpg");
     background-size: 350px 250px;
     background-repeat: no-repeat;
 
@@ -149,13 +193,7 @@ div.contenedor-nuestro-texto p.texto-2 strong {
   border-top-right-radius: 10px;
 }
 
-.logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-}
+
 
 
 .productos{
@@ -215,22 +253,20 @@ div.contenedor-nuestro-texto p.texto-2 strong {
 
 .acerca {
     width: 385px;
-    height: 20  0px;
+    height: 430px;
     background-color: #8a8a8a;
     text-align: center;
     margin-bottom: 0px;
 }
 
-
-
 footer {
     width: 385px;
-    height: 325px;
+    height: 530px;
     background-color: #f2f2f2;
-  }
+}
   
   
-  .texto1{
+.texto1{
     word-wrap: break-word; 
 }
 
@@ -238,21 +274,14 @@ footer {
   display: grid;
   place-items: center;
   padding-left: 20px;
-  margin-top: -28px;
+  margin-top: 0;
 
 }
 
-  .icono-celular,
+.icono-celular,
 .icono-correo {
   vertical-align: middle;
   margin-right: 5px;
   width: 20px; 
   height: 15px;
 }
-
-
-
-
-
-
-

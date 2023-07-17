@@ -10,21 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
     </head>
 <body>
-        <header></header>
-             
+
+        <header>
             <div class="header">
-                <div>
-                    <p>El Progreso</p>
-                </div>
-                <div>
-                    <nav>
-                        <a href="#servicios">Servicios</a>
-                        <a href="#productos">Productos</a>
-                        <a href="#clientes">Clientes</a>
-                    </nav>
-                </div>
+            <div>
+                <p>El Progreso</p>
             </div>
-        
+            <div class="menu">
+                <nav class="menu-options">
+                <a href="#" onclick= "scrollToPosition(395)" >Servicios</a>
+                <a href="#" onclick= "scrollToPosition(1400)">Productos</a>
+                <a href="#clientes">Clientes</a>
+                </nav>
+            </div>
+            <button class="menu-btn">Menú</button>
+            </div>
+        </header>
+                    
 
         <section id="nosotros1" class="nosotros">
             <div>
@@ -33,17 +35,17 @@
             
                     <p class="texto-2">Fundamos El Progreso en el cluster de moda reconocido a nivel internacional, Medellín Colombia, y hoy tenemos 30 años de experiencia en el mercado de copas prehormadas. <br></p>
                     <p class="texto-2">Nos dedicamos al diseño, producción y comercialización de copas prehormadas para ropa interior y vestidos de baño</p>   
-                    <p class="texto-2">Buscamos la innovación por medio del desarrollo de nuestros productos, somos expertos y contamos con materias 100 % de calidad</p>
+                    <p class="texto-2" id="servicios">Buscamos la innovación por medio del desarrollo de nuestros productos, somos expertos y contamos con materias 100 % de calidad</p>
                 </div> 
             </div>
         </section>
         
-        <article id="servicios">
+        <article>
             <div class="nuestrosServicios">
                <h1 class="texto-0">Nuestros servicios</h1>
                 <p class="texto-1">Tipo de servicios que ofrecemos a nuestros clientes</p>
             
-                <div class="contenedor-servicios-1">
+                <div class="contenedor-servicios-1" >
                     <div class="contenedor-nuestro-imagen-1">
                         
                     </div>
@@ -126,11 +128,16 @@
                     edinsoncolonia@gmail.com
                 </p>
             
+                <h1 class="clientes1">Próximamente</h1>
+                <p class="clientes2">Instagram</p>
+                <p class="clientes2">LinkedIn</p>
+
             </div>
             <div class="footer-final">
-                <p>Copyright 2023 | Todos los derechos reservados Sitio web desarrollado por ECOLONIA studio Ecuador</p>
+                <p> &copy; Copyright 2023 | Todos los derechos reservados Sitio web desarrollado por ECOLONIA studio Ecuador</p>
             </div>
         </footer>
+        <script src="app.js"></script>
     </body>
 </html>
 
