@@ -80,7 +80,7 @@
     width: 385px;
     height: 390px;
     background-color: white;
-    margin-bottom: 10;
+    margin-bottom: 10px;
     margin-top: 100px;
 }
 
@@ -88,7 +88,6 @@
 .contenedor-empresa{
     width: 350px;
     height: 230px;
-  /**/
 }
   
 
@@ -97,7 +96,7 @@
     height: 1000px;
     background-color: white;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .texto-0{
@@ -208,7 +207,7 @@ div.contenedor-nuestro-texto p.texto-2 strong {
 
 .productos{
   width: 385px;
-  height: 3000px;
+  height: 1100px;
 }
 
 .productos img{
@@ -264,7 +263,7 @@ div.contenedor-nuestro-texto p.texto-2 strong {
 .acerca {
     width: 385px;
     height: 430px;
-    /*background-color: #8a8a8a;*/
+ 
     background-color: rgb(88, 87, 87);
     text-align: center;
     margin-bottom: 0px;
@@ -360,3 +359,24 @@ footer {
 }
 
 
+.detalle-btn-1,
+.detalle-btn-2 {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.detalle-productos-container-1,
+.detalle-productos-container-2 {
+  margin-top: 20px;
+}
+
+.detalle-productos-container-1 .detalle-producto,
+.detalle-productos-container-2 .detalle-producto {
+  display: none; 
+}
