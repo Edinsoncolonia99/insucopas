@@ -39,24 +39,34 @@ function scrollToPosition(position) {
 }
 
 // escuchando el evento clic. Llamando a la clase detalle-btn
-const detalleBtn1 = document.querySelector('.detalle-btn-1');
-const detalleBtn2 = document.querySelector('.detalle-btn-2');
+const detalleBtn1 = document.querySelector('#detalle-btn-1');
+const detalleBtn2 = document.querySelector('#detalle-btn-2');
 
 detalleBtn1.addEventListener('click', function() {
-
+  // Al hacer clic en el botón 1, llamamos a la función para mostrar/ocultar el detalle del producto 1
   toggleDetalleProductos(1);
 });
 
 detalleBtn2.addEventListener('click', function() {
+  // Al hacer clic en el botón 2, llamamos a la función para mostrar/ocultar el detalle del producto 2
   toggleDetalleProductos(2);
 });
 
 function toggleDetalleProductos(conjunto) {
-  
+  // Obtenemos el contenedor de detalles del producto seleccionado
   const detalleProductosContainer = document.querySelector(`.detalle-productos-container-${conjunto}`);
+  
+  // Mostramos u ocultamos el contenedor según su estado actual
   if (detalleProductosContainer.style.display === 'none') {
     detalleProductosContainer.style.display = 'block';
   } else {
     detalleProductosContainer.style.display = 'none';
   }
 }
+
+
+
+
+
+
+
